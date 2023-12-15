@@ -32,7 +32,8 @@ bla bla bla
 ## 6. Desain User Experience dan User Interface
 
 Bisa load image 
-![Contoh](https://fastly.picsum.photos/id/318/536/354.jpg?hmac=Ixy-wle80nudIR_cmnF1iY2y6rMUH7_9sk-BP1fTpM8)
+![WhatsApp Image 2023-12-15 at 11 50 28_ee268416](https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/52d656db-92c3-4699-8845-81db95e9b7a2)
+
 
 ## 7. Demonstrasi Video
 
