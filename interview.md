@@ -23,7 +23,12 @@ erDiagram
 ```
 
 ## 4. Arsitektur Sistem
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
+'''mermaid
+flowchart TD;
+A [Start]--->B[Process 1];
+B--->C[Process 2];
+C--->D[End];
+'''
 
 ## 5. Teknologi, Library, dan Framework
 
