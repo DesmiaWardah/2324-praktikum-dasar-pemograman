@@ -23,12 +23,8 @@ erDiagram
 ```
 
 ## 4. Arsitektur Sistem
-'''mermaid
-flowchart TD;
-A [Start]--->B[Process 1];
-B--->C[Process 2];
-C--->D[End];
-'''
+flowchart TD
+    Start --> Stop
 
 ## 5. Teknologi, Library, dan Framework
 
