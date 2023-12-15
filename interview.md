@@ -5,9 +5,9 @@ Game ini dibuat untuk memenuhi salah satu tugas pada mata kuliah Praktikum Dasar
 
 
 ## 1.3. Branding
-Nama Game = Dikejar Deadline 
-Tareget pengguna =
-- Game ini bisa dimainkan dari kalangan anak-anak sampai dewasa
+- Nama Game = Dikejar Deadline 
+- Tareget pengguna =
+  - Game ini bisa dimainkan dari kalangan anak-anak sampai dewasa
 ## 2. User Story
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
