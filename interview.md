@@ -23,8 +23,10 @@ erDiagram
 ```
 
 ## 4. Arsitektur Sistem
-flowchart TD
-    Start --> Stop
+erDiagram
+    RUJAK ||--o{ SAYUR : tersusun
+    PEMBELI ||--|{ RUJAK : beli
+
 
 ## 5. Teknologi, Library, dan Framework
 
