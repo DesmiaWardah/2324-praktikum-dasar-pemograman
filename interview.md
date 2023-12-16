@@ -15,6 +15,7 @@ Pengguna | Mengambil objek | Player bisa mengumpulkan objek |  ⭐⭐⭐⭐⭐
 Sistem | Set timer | Bisa set timer kapan game dimulai dan berakhir | ⭐⭐⭐⭐
 Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
 ## 5. Desain User Interface
+![WhatsApp Image 2023-12-16 at 17 18 06_607d2410](https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/230e64ec-bd73-4153-ba2e-85ce92cc12be)
 
 ## 6. Flowchart
 
