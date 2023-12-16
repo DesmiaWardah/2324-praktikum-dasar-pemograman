@@ -23,6 +23,58 @@ Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
 
 ## 8. Kode Pemograman Game
 
+import java.util.Random;
+import java.util.Scanner;
+
+public class Game {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        int score = 0;
+        int targetScore = 10;
+        int timeLimit = 60;
+        long startTime = System.currentTimeMillis();
+
+        System.out.println("Selamat datang di Game Dikejar Deadline!");
+        System.out.println("Kumpulkan 10 tugas dalam waktu 60 detik.");
+
+        while (score < targetScore) {
+            long currentTime = System.currentTimeMillis();
+            int elapsedTime = (int) ((currentTime - startTime) / 1000);
+
+            if (elapsedTime >= timeLimit) {
+                System.out.println("Waktu habis! Skor kamu: " + score);
+                System.out.println("Game Over!");
+                break;
+            }
+
+            System.out.println("Waktu tersisa: " + (timeLimit - elapsedTime) + " detik");
+            System.out.println("Titik yang terkumpul: " + score);
+
+            // Generate warna secara acak (hijau, biru, merah, kuning, putih)
+            String[] warna = {"hijau", "biru", "merah", "kuning", "putih"};
+            String titikWarna = warna[random.nextInt(warna.length)];
+
+            System.out.print("Ketik warna titik (hijau, biru, merah, kuning, putih): ");
+            String input = scanner.nextLine();
+
+            if (input.equalsIgnoreCase(titikWarna)) {
+                score += 10;
+                System.out.println("Titik berwarna " + titikWarna + " ditambahkan! Skor saat ini: " + score);
+            } else {
+                System.out.println("Warna salah! Coba lagi.");
+            }
+        }
+
+        if (score >= targetScore) {
+            System.out.println("Selamat! Kamu berhasil mengumpulkan " + targetScore + " titik dalam waktu 60 detik.");
+            System.out.println("Game Winner!");
+        }
+    }
+}
+
+
 
 
 
