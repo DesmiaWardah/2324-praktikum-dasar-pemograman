@@ -75,14 +75,16 @@ public class Game {
 }
 
 ## 2. konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini
-
+game ini memanfaatkan variabel-variabel seperti score, targetScore, timeLimit, startTime, elapsedTime untuk mengatur logika permainan dan waktu. Input dari pemain dibaca menggunakan objek Scanner, dan pemain diminta untuk memasukkan warna titik yang sesuai dengan warna yang dihasilkan secara acak.
 ## 3. konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini
 Dalam pembuatan game ini, konsep boolean dan conditions digunakan untuk mengontrol alur permainan dan memeriksa kesesuaian input pemain. Seperti pada saat memeriksa sisa waktu pada game digunakan conditions `if (elapsedTime >= timeLimit)` dengan tipe data boolean untuk memeriksa apakah waktu sudah habis atau belum. Selain itu, pada game ini juga digunakan coditions 
 `if (input.equalsIgnoreCase(titikWarna))` untuk memeriksa apakah input pemain sama dengan warna titik yang dihasilkan secara acak. `if (input.equalsIgnoreCase(titikWarna))` untuk mengembalikan nilai boolean true atau false tergantung kesesuaian kedua nilai. `  if (score >= targetScore) ` untuk memeriksa apakah score yang didapat nilainya sama dengan nilai target score. Dengan adanya penggunaan conditions ini, permainan dapat berjalan dengan benar dan memberikan respon yang sesuai kepada pemain berdasarkan input dan kondisi yang diberikan.
 ## 4. konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini
-
+Pada game ini, konsep looping digunakan dalam perulangan while untuk terus menjalankan permainan selama skor belum mencapai target atau waktu masih cukup, seperti `while (score < targetScore)`. Sedangkan array digunakan untuk menyimpan daftar warna titik dalam array warna[], memungkinkan pemilihan warna secara acak dengan bantuan kelas Random.
 ## 5. konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini
 
 ## 6. konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini 
-
+Dalam game ini, konsep class pada bahasa pemrograman Java digunakan dengan membuat sebuah kelas bernama Game. Kelas ini menyediakan sebuah metode statis main yang merupakan titik awal eksekusi program. Beberapa variabel seperti score, targetScore, timeLimit, dan startTime diatur sebagai atribut kelas.
+Selain itu, objek-objek dari kelas Scanner dan Random juga dibuat di dalam kelas untuk digunakan dalam metode main. Semua logika permainan, termasuk input dari pemain, pengolahan waktu, dan penanganan perulangan, terletak di dalam metode main.
+Dengan menggunakan kelas, Anda dapat mengorganisasi kode dengan lebih baik, memisahkan tanggung jawab dan meningkatkan keterbacaan serta pemeliharaan kode.
 ## 7. algoritma
