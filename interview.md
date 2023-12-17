@@ -1,27 +1,27 @@
-## 1. Latar Belakang
+## 1.1 Latar Belakang
 Game ini dibuat untuk memenuhi salah satu tugas pada mata kuliah Praktikum Dasar Pemograman sebagai tugas Ulangan Tengah Semester (UTS). Inspirasi saya membuat game ini karena terinspirasi dari keseharian saya sebagai seorang mahasiswa yang sehari-harinya harus mengumpulkan tugas-tugas, semakin banyak tugas yang dikumpulkan maka semakin besar juga nilai yang didapatkan.
-## 2. Deksripsi dan alur cerita game
+## 1.2 Deksripsi dan alur cerita game
 Didalam game ini terdapat satu orang player sebagai mahasiswa yang harus mengumpulkan tugas sebanyak-banyaknya sebelum waktu habis, titik-titik sebanyak 10 buah sebagai tugas yang harus dikumpulkan, tampilan timer yang dimulai dari 0 detik sampai 60 detik, tampilan papan skor yang dimana setiap 1 tugas yang dikumpulkan bernilai 10 berarti jika semua tugas berhasil dikumpulkan bernilai 100. Dan game jika hanya ditampilkan di terminal output maka pada awal game terdapat kalimat "Selamat datang di Game Dikejar Deadline!" dan "Kumpulkan 10 tugas dalam waktu 60 detik." selain itu terdapat juga tampilan sisa waktu dan tugas yang terkumpul, untuk mengumpulkan tugasnya pemain harus mengetikkan kata (hijau, biru, merah, kuning, putih) misal mengetik kata putih maka tugas terkumpul 1 dan sisa waktu akan ditampilkan, jika waktunya habis maka game selesai.
-## 3. Branding game
+## 1.3 Branding game
 - Nama Game = Dikejar Deadline 
 - Tareget pengguna =
   - Game ini bisa dimainkan dari kalangan anak-anak sampai dewasa
 - Genre 
-## 4. User Story
+## 1.4 User Story
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 Pengguna | Menggerakan player | Player bisa bergerak | ⭐⭐⭐⭐⭐
 Pengguna | Mengambil objek | Player bisa mengumpulkan objek |  ⭐⭐⭐⭐⭐
 Sistem | Set timer | Bisa set timer kapan game dimulai dan berakhir | ⭐⭐⭐⭐
 Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
-## 5. Desain User Interface
+## 1.5 Desain User Interface
 ![WhatsApp Image 2023-12-16 at 17 18 06_607d2410](https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/230e64ec-bd73-4153-ba2e-85ce92cc12be)
 
-## 6. Flowchart
+## 1.6 Flowchart
 
-## 7. Link Demo game
+## 1.7 Link Demo game
 
-## 8. Kode Pemograman Game
+## 1.8 Kode Pemograman Game
 
 import java.util.Random;
 import java.util.Scanner;
@@ -74,8 +74,15 @@ public class Game {
     }
 }
 
+## 2. konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini
 
+## 3. konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini
+Dalam pembuatan game ini, konsep boolean dan conditions digunakan untuk mengontrol alur permainan dan memeriksa kesesuaian input pemain. Seperti pada saat memeriksa sisa waktu pada game digunakan conditions `if (elapsedTime >= timeLimit)` dengan tipe data boolean untuk memeriksa apakah waktu sudah habis atau belum. Selain itu, pada game ini juga digunakan coditions 
+`if (input.equalsIgnoreCase(titikWarna))` untuk memeriksa apakah input pemain sama dengan warna titik yang dihasilkan secara acak. `if (input.equalsIgnoreCase(titikWarna))` untuk mengembalikan nilai boolean true atau false tergantung kesesuaian kedua nilai. `  if (score >= targetScore) ` untuk memeriksa apakah score yang didapat nilainya sama dengan nilai target score. Dengan adanya penggunaan conditions ini, permainan dapat berjalan dengan benar dan memberikan respon yang sesuai kepada pemain berdasarkan input dan kondisi yang diberikan.
+## 4. konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini
 
+## 5. konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini
 
+## 6. konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini 
 
-
+## 7. algoritma
