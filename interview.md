@@ -88,3 +88,4 @@ Dalam game ini, konsep class pada bahasa pemrograman Java digunakan dengan membu
 Selain itu, objek-objek dari kelas Scanner dan Random juga dibuat di dalam kelas untuk digunakan dalam metode main. Semua logika permainan, termasuk input dari pemain, pengolahan waktu, dan penanganan perulangan, terletak di dalam metode main.
 Dengan menggunakan kelas, Anda dapat mengorganisasi kode dengan lebih baik, memisahkan tanggung jawab dan meningkatkan keterbacaan serta pemeliharaan kode.
 ## 7. algoritma
+
