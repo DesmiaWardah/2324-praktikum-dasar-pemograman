@@ -18,6 +18,8 @@ Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
 ![WhatsApp Image 2023-12-16 at 17 18 06_607d2410](https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/230e64ec-bd73-4153-ba2e-85ce92cc12be)
 
 ## 1.6 Flowchart
+<img width="329" alt="Screenshot 2023-12-18 145654" src="https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/4b8a439a-f969-46f2-9840-dd111b2dcddc">
+
 
 ## 1.7 Link Demo game
 
