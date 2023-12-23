@@ -5,3 +5,26 @@
 - Dalam game ini, konsep class pada bahasa pemrograman Java digunakan dengan membuat sebuah kelas bernama Game. Kelas ini menyediakan sebuah metode statis main yang merupakan titik awal eksekusi program. Beberapa variabel seperti score, targetScore, timeLimit, dan startTime diatur sebagai atribut kelas. Selain itu, objek-objek dari kelas Scanner dan Random juga dibuat di dalam kelas untuk digunakan dalam metode main. Semua logika permainan, termasuk input dari pemain, pengolahan waktu, dan penanganan perulangan, terletak di dalam metode main. Dengan menggunakan kelas, Anda dapat mengorganisasi kode dengan lebih baik, memisahkan tanggung jawab dan meningkatkan keterbacaan serta pemeliharaan kode.
 ## 2. Jelaskan proses pengembangan algoritma yang dilakukan pada game yang dibuat
 ## 3. Jelaskan bagaimana game yang dibuat dapat didistribusikan dan digunakan oleh pengguna
+- Merancang dan membuat game
+- Pengembangan game
+- Pemilihan platfrom
+  Menentukan platform distribusi yang akan digunakan, seperti PC (Steam, Epic Games Store), konsol (PlayStation, Xbox, Nintendo), atau perangkat seluler (Google Play Store, Apple App Store).
+- Pendaftaran dan persetujuan
+  Untuk platform tertentu, perlu mendaftar sebagai pengembang dan mendapatkan persetujuan sebelum dapat mendistribusikan game. Persyaratan ini bervariasi tergantung pada platform.
+- Penilaian dan sertifikasi
+  Beberapa platform memerlukan penilaian dan sertifikasi untuk memastikan bahwa game yang dibuat memenuhi standar kualitas dan keamanan. Ini melibatkan peninjauan dari pihak platform.
+- Penyandian dan kompilasi
+  Sesuaikan game Anda agar dapat dijalankan pada platform yang dituju. Ini mungkin melibatkan proses penyandian (jika game Anda menggunakan bahasa seperti C++) dan kompilasi ulang untuk platform spesifik.
+- Distribusi digital
+  Jika Anda memilih distribusi digital, siapkan game Anda untuk diunggah ke platform distribusi digital (seperti Steam, Google Play Store, dll.).
+Ikuti petunjuk yang diberikan oleh platform untuk mengunggah game dan memasarkan produk Anda.
+- Penjualan atau distribusi gratis
+  Tentukan apakah game Anda akan dijual atau didistribusikan secara gratis. Atur harga, jika diperlukan, dan tentukan metode pembayaran atau monetisasi (misalnya, pembelian dalam aplikasi, mikrotransaksi).
+- Peluncuran dan pemasaran
+  Siapkan kampanye pemasaran untuk meningkatkan visibilitas game Anda. Gunakan media sosial, situs web, dan alat pemasaran lainnya untuk mempromosikan game Anda sebelum dan setelah peluncuran.
+- Pemeliharaan dan pembaruan
+  Setelah peluncuran, terus perbarui dan perbaiki bug pada game. Perhatikan umpan balik dari pengguna dan berikan pembaruan secara teratur untuk meningkatkan pengalaman pengguna.
+- Dukungan Pengguna
+  Siapkan sistem dukungan pengguna untuk menanggapi pertanyaan, masalah, atau umpan balik dari pengguna.
+- Analisis dan pemantauan
+  Gunakan alat analisis untuk memantau kinerja game Anda, memahami perilaku pengguna, dan membuat perbaikan berdasarkan data yang diperoleh.
