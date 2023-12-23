@@ -1,8 +1,7 @@
 ## 1. Jelaskan penggunaan array, looping, condition, dan class pada game yang dibuat
 - konsep array digunakan untuk menyimpan daftar warna titik dalam array warna[], memungkinkan pemilihan warna secara acak dengan bantuan kelas Random.
 - Looping digunakan dalam perulangan while untuk terus menjalankan permainan selama skor belum mencapai target atau waktu masih cukup, seperti while (score < targetScore).
-- Condition
-  
+- Conditions digunakan untuk mengontrol alur permainan dan memeriksa kesesuaian input pemain. Seperti pada saat memeriksa sisa waktu pada game digunakan conditions if (elapsedTime >= timeLimit) dengan tipe data boolean untuk memeriksa apakah waktu sudah habis atau belum. Selain itu, pada game ini juga digunakan coditions if (input.equalsIgnoreCase(titikWarna)) untuk memeriksa apakah input pemain sama dengan warna titik yang dihasilkan secara acak. if (input.equalsIgnoreCase(titikWarna)) untuk mengembalikan nilai boolean true atau false tergantung kesesuaian kedua nilai.  if (score >= targetScore) untuk memeriksa apakah score yang didapat nilainya sama dengan nilai target score. Dengan adanya penggunaan conditions ini, permainan dapat berjalan dengan benar dan memberikan respon yang sesuai kepada pemain berdasarkan input dan kondisi yang diberikan.
 - Class
 ## 2. Jelaskan proses pengembangan algoritma yang dilakukan pada game yang dibuat
 ## 3. Jelaskan bagaimana game yang dibuat dapat didistribusikan dan digunakan oleh pengguna
