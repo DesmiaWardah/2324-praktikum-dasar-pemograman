@@ -6,7 +6,10 @@
 ## 2. Jelaskan proses pengembangan algoritma yang dilakukan pada game yang dibuat
 ## 3. Jelaskan bagaimana game yang dibuat dapat didistribusikan dan digunakan oleh pengguna
 - Merancang dan membuat game
+Buat game Anda menggunakan platform pengembangan yang sesuai seperti Unity, Unreal Engine, atau engine lainnya.
+Pastikan game Anda memenuhi persyaratan teknis dan hukum platform yang dituju.
 - Pengembangan game
+  Kembangkan game dari algoritma yang sudah dibuat agar lebih menarik peminat
 - Pemilihan platfrom
   Menentukan platform distribusi yang akan digunakan, seperti PC (Steam, Epic Games Store), konsol (PlayStation, Xbox, Nintendo), atau perangkat seluler (Google Play Store, Apple App Store).
 - Pendaftaran dan persetujuan
