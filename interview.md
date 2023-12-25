@@ -1,17 +1,23 @@
 ## 1.1 Latar Belakang
 Game ini dibuat untuk memenuhi salah satu tugas pada mata kuliah Praktikum Dasar Pemograman sebagai tugas Ulangan Tengah Semester (UTS). Inspirasi saya membuat game ini karena terinspirasi dari keseharian saya sebagai seorang mahasiswa yang sehari-harinya harus mengumpulkan tugas-tugas, semakin banyak tugas yang dikumpulkan maka semakin besar juga nilai yang didapatkan.
 ## 1.2 Deksripsi dan alur cerita game
-Didalam game ini terdapat satu orang player sebagai mahasiswa yang harus mengumpulkan tugas sebanyak-banyaknya sebelum waktu habis, titik-titik sebanyak 10 buah sebagai tugas yang harus dikumpulkan, tampilan timer yang dimulai dari 0 detik sampai 60 detik, tampilan papan skor yang dimana setiap 1 tugas yang dikumpulkan bernilai 10 berarti jika semua tugas berhasil dikumpulkan bernilai 100. Dan game jika hanya ditampilkan di terminal output maka pada awal game terdapat kalimat "Selamat datang di Game Dikejar Deadline!" dan "Kumpulkan 10 tugas dalam waktu 60 detik." selain itu terdapat juga tampilan sisa waktu dan tugas yang terkumpul, untuk mengumpulkan tugasnya pemain harus mengetikkan kata (hijau, biru, merah, kuning, putih) misal mengetik kata putih maka tugas terkumpul 1 dan sisa waktu akan ditampilkan, jika waktunya habis maka game selesai.
+Didalam game ini terdapat satu orang player sebagai mahasiswa yang harus mengumpulkan tugas sebanyak-banyaknya sebelum waktu habis, titik-titik sebanyak 10 buah sebagai tugas yang harus dikumpulkan, tampilan timer yang dimulai dari 0 detik sampai 60 detik, tampilan papan skor yang dimana setiap 1 tugas yang dikumpulkan bernilai 10 berarti jika semua tugas berhasil dikumpulkan bernilai 100. Dan game jika hanya ditampilkan di terminal output maka pada awal game terdapat kalimat "Selamat datang di Game Dikejar 
+Deadline!" dan "Kumpulkan 10 tugas dalam waktu 60 detik." selain itu terdapat juga tampilan sisa waktu dan tugas yang terkumpul, untuk mengumpulkan tugasnya pemain harus mengetikkan kata (hijau, biru, merah, kuning, putih) misal mengetik kata putih maka tugas terkumpul 1 dan sisa waktu akan ditampilkan, jika waktunya habis maka game selesai.
 ## 1.3 Branding game
 - Nama Game = Dikejar Deadline 
 - Tareget pengguna =
-  - Game ini bisa dimainkan dari kalangan anak-anak sampai dewasa
-- Genre 
+  - usia 7+
+  - Seseorang yang tertarik mensimulasikan kehidupan nyata ke game
+  - Seseorang yang suka menetukan strategi
+  - Seseorang yang sedang bosan 
+- Genre = Simulation (Life Simulation)
 ## 1.4 User Story
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 Pengguna | Menggerakan player | Player bisa bergerak | ⭐⭐⭐⭐⭐
 Pengguna | Mengambil objek | Player bisa mengumpulkan objek |  ⭐⭐⭐⭐⭐
+Pengguna | ganti tema | Player bisa memilih tema yang diinginkannya | ⭐⭐⭐
+Pengguna | ganti kostum pemain | Player bisa memilih tema yang diinginkannya | ⭐⭐
 Sistem | Set timer | Bisa set timer kapan game dimulai dan berakhir | ⭐⭐⭐⭐
 Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
 Sistem | Membuat level | game akan semakin menantang |⭐⭐
