@@ -14,6 +14,7 @@ Pengguna | Menggerakan player | Player bisa bergerak | ⭐⭐⭐⭐⭐
 Pengguna | Mengambil objek | Player bisa mengumpulkan objek |  ⭐⭐⭐⭐⭐
 Sistem | Set timer | Bisa set timer kapan game dimulai dan berakhir | ⭐⭐⭐⭐
 Sistem | Membuat hambatan | Mempersulit player untuk memenangkan game | ⭐⭐
+Sistem | Membuat level | game akan semakin menantang |⭐⭐
 ## 1.5 Desain User Interface
 ![WhatsApp Image 2023-12-16 at 17 18 06_607d2410](https://github.com/DesmiaWardah/2324-praktikum-dasar-pemograman/assets/144568328/230e64ec-bd73-4153-ba2e-85ce92cc12be)
 
@@ -84,10 +85,16 @@ Dalam pembuatan game ini, konsep boolean dan conditions digunakan untuk mengontr
 ## 4. konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini
 Pada game ini, konsep looping digunakan dalam perulangan while untuk terus menjalankan permainan selama skor belum mencapai target atau waktu masih cukup, seperti `while (score < targetScore)`. Sedangkan array digunakan untuk menyimpan daftar warna titik dalam array warna[], memungkinkan pemilihan warna secara acak dengan bantuan kelas Random.
 ## 5. konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini
-
+Dalam game ini, konsep method pada bahasa pemrograman Java tidak digunakan secara eksplisit. Semua logika permainan dan interaksi dengan pemain terletak di dalam metode main. Namun, meskipun tidak ada metode terpisah, Anda masih dapat mengorganisasi kode lebih lanjut dengan membuat metode-metode kecil untuk tugas-tugas tertentu.
+Contoh penggunaan metode bisa melibatkan pemisahan fungsionalitas seperti inisialisasi permainan, input dari pemain, logika permainan, dan output pesan. Hal ini dapat meningkatkan keterbacaan dan pemeliharaan kode.
 ## 6. konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini 
 Dalam game ini, konsep class pada bahasa pemrograman Java digunakan dengan membuat sebuah kelas bernama Game. Kelas ini menyediakan sebuah metode statis main yang merupakan titik awal eksekusi program. Beberapa variabel seperti score, targetScore, timeLimit, dan startTime diatur sebagai atribut kelas.
 Selain itu, objek-objek dari kelas Scanner dan Random juga dibuat di dalam kelas untuk digunakan dalam metode main. Semua logika permainan, termasuk input dari pemain, pengolahan waktu, dan penanganan perulangan, terletak di dalam metode main.
 Dengan menggunakan kelas, Anda dapat mengorganisasi kode dengan lebih baik, memisahkan tanggung jawab dan meningkatkan keterbacaan serta pemeliharaan kode.
 ## 7. algoritma
+- user menekan tombol start pada halaman awal
+- game dimulai
+- kumpulkan tugas-tugas sebelum waktu habis
+- jika tugas terkumpul maka game menang
+- jika tugas tidak terkumpul maka game over
 
