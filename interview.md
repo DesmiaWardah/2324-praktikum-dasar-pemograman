@@ -29,7 +29,7 @@ Sistem | Membuat level | game akan semakin menantang |⭐⭐
 
 
 ## 1.7 Link Demo game
-
+https://youtu.be/MqcoiF-ZPio?si=x7H1ss2d8ZS0bw3n
 ## 1.8 Kode Pemograman Game
 
 import java.util.Random;
