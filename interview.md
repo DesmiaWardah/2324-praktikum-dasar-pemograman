@@ -31,7 +31,6 @@ Sistem | Membuat level | game akan semakin menantang |⭐⭐
 ## 1.7 Link Demo game
 https://youtu.be/MqcoiF-ZPio?si=x7H1ss2d8ZS0bw3n
 ## 1.8 Kode Pemograman Game
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -42,46 +41,71 @@ public class Game {
 
         int score = 0;
         int targetScore = 10;
-        int timeLimit = 60;
-        long startTime = System.currentTimeMillis();
+        int timeLimit = 100;
+        Time gameTimer = new Time(timeLimit);
 
         System.out.println("Selamat datang di Game Dikejar Deadline!");
-        System.out.println("Kumpulkan 10 tugas dalam waktu 60 detik.");
+        System.out.println("Kumpulkan 10 tugas dalam waktu 100 detik.");
 
-        while (score < targetScore) {
-            long currentTime = System.currentTimeMillis();
-            int elapsedTime = (int) ((currentTime - startTime) / 1000);
-
-            if (elapsedTime >= timeLimit) {
-                System.out.println("Waktu habis! Skor kamu: " + score);
-                System.out.println("Game Over!");
-                break;
-            }
-
-            System.out.println("Waktu tersisa: " + (timeLimit - elapsedTime) + " detik");
+        while (score < targetScore && !gameTimer.isTimeUp()) {
+            System.out.println("Waktu tersisa: " + gameTimer.getTimeRemaining() + " detik");
             System.out.println("Titik yang terkumpul: " + score);
 
-            // Generate warna secara acak (hijau, biru, merah, kuning, putih)
-            String[] warna = {"hijau", "biru", "merah", "kuning", "putih"};
-            String titikWarna = warna[random.nextInt(warna.length)];
-
+            Point randomPoint = new Point(random);
             System.out.print("Ketik warna titik (hijau, biru, merah, kuning, putih): ");
             String input = scanner.nextLine();
 
-            if (input.equalsIgnoreCase(titikWarna)) {
-                score += 10;
-                System.out.println("Titik berwarna " + titikWarna + " ditambahkan! Skor saat ini: " + score);
+            if (input.equalsIgnoreCase(randomPoint.getColor())) {
+                score += 2;
+                System.out.println("Titik berwarna " + randomPoint.getColor() + " ditambahkan! Skor saat ini: " + score);
             } else {
                 System.out.println("Warna salah! Coba lagi.");
             }
         }
 
         if (score >= targetScore) {
-            System.out.println("Selamat! Kamu berhasil mengumpulkan " + targetScore + " titik dalam waktu 60 detik.");
+            System.out.println("Selamat! Kamu berhasil mengumpulkan " + targetScore + " titik dalam waktu 100 detik.");
             System.out.println("Game Winner!");
+        } else {
+            System.out.println("Waktu habis! Skor kamu: " + score);
+            System.out.println("Game Over!");
         }
     }
 }
+
+class Point {
+    private String[] colors = {"hijau", "biru", "merah", "kuning", "putih"};
+    private String color;
+
+    public Point(Random random) {
+        this.color = colors[random.nextInt(colors.length)];
+    }
+
+    public String getColor() {
+        return color;
+    }
+}
+
+class Time {
+    private int timeLimit;
+    private long startTime;
+
+    public Time(int timeLimit) {
+        this.timeLimit = timeLimit;
+        this.startTime = System.currentTimeMillis();
+    }
+
+    public int getTimeRemaining() {
+        long currentTime = System.currentTimeMillis();
+        int elapsedTime = (int) ((currentTime - startTime) / 1000);
+        return Math.max(0, timeLimit - elapsedTime);
+    }
+
+    public boolean isTimeUp() {
+        return getTimeRemaining() <= 0;
+    }
+}
+
 
 ## 2. konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini
 game ini memanfaatkan variabel-variabel seperti score, targetScore, timeLimit, startTime, elapsedTime untuk mengatur logika permainan dan waktu. Input dari pemain dibaca menggunakan objek Scanner, dan pemain diminta untuk memasukkan warna titik yang sesuai dengan warna yang dihasilkan secara acak.
